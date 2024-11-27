@@ -1,2 +1,2 @@
-# BoilerPlateSpigotPlugin
-Boiler plate code for a spigot plugin complete with a command and event
+# Boiler Plate code for Spigot Plugin
+This project is boilerplate code for a Spigot plugin, providing the basic structure necessary for creating a plugin. It includes a simple command that responds to user input via the /boilerplate syntax, handling interaction through the BoilerPlateCommand method. Additionally, it features an event listener that captures player interactions, such as player joins, and triggers actions using the @EventHandler annotation, demonstrating core functionality for event handling in Spigot plugins.
