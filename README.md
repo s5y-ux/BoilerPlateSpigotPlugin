@@ -1,4 +1,6 @@
 # Boiler Plate code for Spigot Plugin
+![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)  ![Spigot 1.21.3](https://img.shields.io/badge/Spigot-1.21.3-orange)  ![Latest Java](https://img.shields.io/badge/Java-21-brightgreen)  ![YAML Latest](https://img.shields.io/badge/YAML-Latest-lightgrey)
+
 This project is boilerplate code for a Spigot plugin, providing the basic structure necessary for creating a plugin. It includes a simple command that responds to user input via the /boilerplate syntax, handling interaction through the BoilerPlateCommand method. Additionally, it features an event listener that captures player interactions, such as player joins, and triggers actions using the @EventHandler annotation, demonstrating core functionality for event handling in Spigot plugins.
 
 ## plugin.yml
