@@ -27,6 +27,7 @@ public class Main extends JavaPlugin{
 		
 		// Used to register events
 		getServer().getPluginManager().registerEvents(new BoilerPlateEvent(this), this);
+		getServer().getPluginManager().registerEvents(new UpdateChecker(), this);
 		
 		// Used to register commands
 		this.getCommand("boilerplate").setExecutor(new BoilerPlateCommand(this));
