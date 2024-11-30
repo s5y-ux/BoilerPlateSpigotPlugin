@@ -5,6 +5,13 @@
 
 This project is boilerplate code for a Spigot plugin, providing the basic structure necessary for creating a plugin. It includes a simple command that responds to user input via the /boilerplate syntax, handling interaction through the BoilerPlateCommand method. Additionally, it features an event listener that captures player interactions, such as player joins, and triggers actions using the @EventHandler annotation, demonstrating core functionality for event handling in Spigot plugins.
 
+## Table of Contents
+1. [plugin.yml](#pluginyml)
+2. [config.yml](#configyml)
+3. [Main.java](#mainjava)
+4. [Events](#events)
+5. [Commands](#commands)
+
 ## plugin.yml
 ```yml
 name: BoilerPlate
@@ -19,13 +26,13 @@ commands:
 ```
 The plugin.yml file is essential for Spigot Java plugins as it provides the necessary metadata for the server to recognize and properly load the plugin. It includes key information such as the plugin's name, version, main class, and dependencies, ensuring compatibility and functionality. Without it, the server cannot identify or initialize the plugin, resulting in loading errors.
 
-# config.yml
+## config.yml
 ```yml
 Parameter: 1
 ```
 The config.yml file is an optional file that allows user configuration for the plugin. (Although the file is technically optional, it is highly encouraged as the user base is critical of plugins devoid of user configuration.)
 
-# Main.java
+## Main.java
 ```java
 package net.ddns.vcccd;
 
@@ -115,6 +122,7 @@ public class BoilerPlateEvent implements Listener {
 ```
 Used for handling events, please reffer to code comments...
 
+## Commands
 ```java
 package net.ddns.vcccd;
 
