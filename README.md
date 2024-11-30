@@ -11,7 +11,7 @@ This project is boilerplate code for a Spigot plugin, providing the basic struct
 3. [Main.java](#mainjava)
 4. [Events](#events)
 5. [Commands](#commands)
-6. [Check For Updates](#CheckforUpdates)
+6. [Check For Updates](#check-for-updates)
 
 ## plugin.yml
 ```yml
